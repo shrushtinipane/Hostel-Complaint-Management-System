@@ -1,0 +1,9 @@
+{
+    "model_file": "model_v1.pkl",
+    "model_version": 1,
+    "best_model": "Random Forest",
+    "mae": 9.81,
+    "r2_score": 0.59,
+    "trained_on": "2026-02-08T16:18:43.910055",
+    "complaints_at_training": 500
+}
