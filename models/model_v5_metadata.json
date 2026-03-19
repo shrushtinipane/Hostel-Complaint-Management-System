@@ -1,0 +1,99 @@
+{
+    "model_file": "model_v5.pkl",
+    "model_version": 5,
+    "best_model": "RandomForest",
+    "mae": 8.41,
+    "r2_score": 0.67,
+    "trained_on": "2026-03-19T17:49:35.967680",
+    "complaints_at_training": 616,
+    "all_model_results": {
+        "LinearRegression": {
+            "mae": 12.6493,
+            "r2": 0.4876
+        },
+        "Ridge": {
+            "mae": 12.6527,
+            "r2": 0.4877
+        },
+        "Lasso": {
+            "mae": 12.9736,
+            "r2": 0.48
+        },
+        "ElasticNet": {
+            "mae": 14.364,
+            "r2": 0.3759
+        },
+        "BayesianRidge": {
+            "mae": 12.6887,
+            "r2": 0.4877
+        },
+        "HuberRegressor": {
+            "mae": 12.3584,
+            "r2": 0.4815
+        },
+        "SGDRegressor": {
+            "mae": 198.5285,
+            "r2": -138.3097
+        },
+        "PassiveAggressiveRegressor": {
+            "mae": 13.249,
+            "r2": 0.417
+        },
+        "DecisionTree": {
+            "mae": 10.6048,
+            "r2": 0.4139
+        },
+        "RandomForest": {
+            "mae": 8.4134,
+            "r2": 0.6699
+        },
+        "ExtraTrees": {
+            "mae": 8.8498,
+            "r2": 0.6264
+        },
+        "GradientBoosting": {
+            "mae": 8.5789,
+            "r2": 0.6894
+        },
+        "HistGradientBoosting": {
+            "mae": 8.7836,
+            "r2": 0.66
+        },
+        "AdaBoost": {
+            "mae": 8.8822,
+            "r2": 0.7051
+        },
+        "SVR": {
+            "mae": 17.3422,
+            "r2": 0.0892
+        },
+        "LinearSVR": {
+            "mae": 12.3485,
+            "r2": 0.465
+        },
+        "KNN": {
+            "mae": 15.2952,
+            "r2": 0.1402
+        },
+        "KernelRidge": {
+            "mae": 12.6457,
+            "r2": 0.4863
+        },
+        "GaussianProcess": {
+            "mae": 27.7449,
+            "r2": -1.9235
+        },
+        "XGBoost": {
+            "mae": 9.1083,
+            "r2": 0.6118
+        },
+        "LightGBM": {
+            "mae": 8.7607,
+            "r2": 0.6606
+        },
+        "CatBoost": {
+            "mae": 8.6298,
+            "r2": 0.655
+        }
+    }
+}
