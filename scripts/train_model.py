@@ -171,7 +171,7 @@ for name, (regressor, use_scaled) in models.items():
 
         scaled_tag = " [scaled]" if use_scaled else ""
         all_results[name] = {"mae": round(mae, 4), "r2": round(r2, 4)}
-        print(f"  ✓ {name:<35}{scaled_tag:<10}  MAE={mae:.2f}  R²={r2:.2f}")
+        print(f"  OK {name:<35}{scaled_tag:<10}  MAE={mae:.2f}  R2={r2:.2f}")
 
         if mae < best_mae:
             best_mae, best_r2   = mae, r2
@@ -179,7 +179,7 @@ for name, (regressor, use_scaled) in models.items():
             best_model_name     = name
 
     except Exception as e:
-        print(f"  ✗ {name:<35}  FAILED: {e}")
+        print(f"  FAIL {name:<35}  FAILED: {e}")
         all_results[name] = {"mae": None, "r2": None, "error": str(e)}
 
 # ── Save ─────────────────────────────────────────────────────────────────────
